@@ -1,1411 +1,870 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="./fullpage/jquery.fullpage.min.css" >
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="background/background.css">
-    <link rel="stylesheet" href="./btns.css">
-    <link rel="stylesheet" href="dropdown.css">
-    <script type="module" src="background/background.js"></script>
-    <script type="module" src="card-animation.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=0.25">
-    <script src="https://kit.fontawesome.com/8668b1b101.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="background/icons/icons.css">
-    <script  src="phrases.js"></script>
-    <link rel="stylesheet" href="phrases.css">
-</head>
-<body>
-<!--    <canvas class="orb-canvas"></canvas>-->
-    <div id="fullpage">
-        <div class="section" id="sec1">
-            <div class="bg"><section class="bg-icons">
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-                <div class="row">
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrows-spin"></i>
-                    <i class="fa-solid fa-arrows-to-dot"></i>
-                    <i class="fa-solid fa-arrows-to-eye"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-bullseye"></i>
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <i class="fa-solid fa-comment-dollar"></i>
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                    <i class="fa-solid fa-envelopes-bulk"></i>
-                    <i class="fa-solid fa-filter-circle-dollar"></i>
-                    <i class="fa-solid fa-group-arrows-rotate"></i>
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <i class="fa-solid fa-magnifying-glass-location"></i>
-                    <i class="fa-solid fa-people-group"></i>
-                    <i class="fa-solid fa-person-rays"></i>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                  </div>
-                </div>
-              </section></div>
-            <header>
-                <nav>
-                    <div class="nav-item" onclick="scrollToSec('1')">partners</div>
-                    <div class="nav-item" onclick="scrollToSec('2')">approach</div>
-                    <div class="nav-item" onclick="scrollToSec('3')">contacts</div>
-                    <div class="nav-item drop-down" id="dropDownTrigger">
-                        <div id="dropDown" class="drop-down__button">
-                            <span class="drop-down__name">login</span>
-                        </div>
-                        <div id="dropDownUnTrigger" class="drop-down__menu-box">
-                            <ul class="drop-down__menu">
-                                <li data-name="first" class="drop-down__item">First</li>
-                                <li data-name="second" class="drop-down__item">Second</li>
-                                <li data-name="third" class="drop-down__item">Third</li>
-                                <li data-name="fourth" class="drop-down__item">Fourth</li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-            <div class="main-title">
-                <h1>
-                    <span id="text1">
+<!doctype html>
+<html lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <!-- Magnific CSS -->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <!-- Line Awesome CSS -->
+        <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+        <!-- Odometer CSS -->
+        <link rel="stylesheet" href="assets/css/odometer.css">
+        <!-- Stylesheet CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Stylesheet Responsive CSS -->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <!-- Title -->
+        <title>Cparoll</title>
+    </head>
 
-                    </span>
-                    <span id="text2">
+    <body data-spy="scroll" data-offset="70">
+    <!-- Preloader -->
+    <div class="preloader" style="display: none;">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="lds-hourglass"></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Preloader -->
 
-                    </span>
-                    <!-- The SVG filter used to create the merging effect -->
-                    <svg id="filters">
-                        <defs>
-                            <filter id="threshold">
-                                <!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
-                                <feColorMatrix in="SourceGraphic"
-                                               type="matrix"
-                                               values="1 0 0 0 0
-									0 1 0 0 0
-									0 0 1 0 0
-									0 0 0 255 -140" />
-                            </filter>
-                        </defs>
-                    </svg>
-                    <span style="display: none;">performance<br>agency</span>
-                </h1>
-                <div class="sub-title">
-                    <img src="./images/cparollLogo.png" alt="LOGO">
+    <!-- Nabvar Area -->
+    <nav class="navbar fixed-top navbar-expand-md main-navbar seo-nav menu-shrink">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img width="200" src="Logo-min.png" alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#features">Our features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#partners">Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#directions">Our directions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#approach">Approach</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.cparoll.com/login">Sign in</a>
+                    </li>
+
+                </ul>
+                <div class="nav-btn">
+                    <div class="dropdown">
+                        <button class="default-btn bg-main" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="window.location='https://www.cparoll.com/affiliate/signup' ">
+                        Sign up as affiliate
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="  https://www.cparoll.com/advertiser/signup">Sign up as an advertiser</a>
+                        </div>
                 </div>
             </div>
         </div>
-        <div class="section" id="sec2">
-            <div style="position: absolute; width: 100%; height: 100%; background: url('./images/back1.jpg'); background-size: cover;"></div>
-            <section class="second">
-                <aside class="second-left">
-                    <h2 class=""><span id="retype">Monetization</span><br> never been this<br> easy</h2>
-                    <div id="phrase_box">
-                      <svg width="100%" height="100%">
-                      <defs>
-                          <style type="text/css">
-                          @font-face {
-                          font-family: "Proxima";
-                          src: url('');
-                          }
-                          </style>
-                        <mask id="mask" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
-                          <linearGradient id="linearGradient" gradientUnits="objectBoundingBox" x2="0" y2="1">
-                          <stop stop-color="white" stop-opacity="0" offset="0%"/>
-                          <stop stop-color="white" stop-opacity="1" offset="30%"/>
-                          <stop stop-color="white" stop-opacity="1" offset="70%"/>
-                          <stop stop-color="white" stop-opacity="0" offset="100%"/>
-                          </linearGradient>
-                          <rect width="100%" height="100%" fill="url(#linearGradient)"/>
-                        </mask>
-                      </defs>
-                      <g width="100%" height="100%" style="mask: url(#mask);">
-                        <g id="phrases"></g>
-                      </g>
-                    </svg></div>
-                </aside>
-                <aside id="block2Content" class="second-right card">
-                    <h3>
-                        publishers
-                    </h3>
-                    <ul>
-                        <li>access the most <br> relevant product</li>
-                        <li>get support from <span>a</span> to <span>z</span></li>
-                        <li>squeeze every click</li>
-                        <li>get commission</li>
-                    </ul>
-                    <p onclick="changeBlock(2)" class="btn-approach">i`m an advertiser</p>
-                </aside>
-                <aside id="block2Content_" class="second-right card">
-                    <h3>
-                        advertisers
-                    </h3>
-                    <ul>
-                        <li>access the most <br> relevant publishers</li>
-                        <li>get widest<br>optimization<br>opportunities</li>
-                        <li>be protected from <br>fraudulent activities</li>
-                        <li>fill your product<br> with leads</li>
-                    </ul>
-                    <p onclick="changeBlock(1)" class="btn-approach">i`m a publisher</p>
-                </aside>
-            </section>
-        </div>
-        <div class="section" id="sec3">
-            <div style="position: absolute; width: 100%; height: 100%; background: url('./images/back1.jpg'); background-size: cover;"></div>
-            <section class="third">
-                <aside id="block3Content">
-                    <div class="top-sec">
-                        <h2>Аpproach</h2>
-                        <div>
-                            <img src="images/block3.png" alt="IMAGE">
+    </nav>
+    <!-- End Nabvar Area -->
+
+    <!-- SEO banner Area -->
+    <div id="home" class="seo-banner-area pb-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="seo-banner-text">
+
+                        <h1>Performance marketing company</h1>
+                        <p>Start you most insightful journey in the affiliate world alongside skilled professionals. Amplify experience and grow profit!</p>
+
+                        <div class="seo-banner-btn">
+                            <a href="https://www.cparoll.com/affiliate/signup" class="default-btn seo-btn-bg1 mr-2">Sign up as affiliate</a>
                         </div>
                     </div>
-                    <div class="bottom-sec">
-                        <p>With over 8 years of performance marketing, campaign management, advertiser sales, roi ups and downs, <span>cparoll</span> team is ready to share gained experience with partners. We will do our best to help our partners strive and thrive.</p>
-                    </div>
-                </aside>
-            </section>
-        </div>
-        <div class="section" id="sec4">
-            <div style="position: absolute; width: 100%; height: 100%; background: url('./images/back1.jpg'); background-size: cover;"></div>
-            <section class="fourth">
-                <aside id="block4Content">
-                    <h2>contact us</h2>
-                    <aside>
-                        <div class="form">
-                            <div class="right-col">
-                                <div class="field">
-                                    <label>
-                                        <input placeholder="Your name" name="name">
-                                    </label>
-                                </div>
-                                <div class="field">
-                                    <label>
-                                        <input placeholder="Company" name="company">
-                                    </label>
-                                </div>
-                                <div class="field last-field">
-                                    <label>
-                                        <input placeholder="E-mail" name="email">
-                                    </label>
-                                </div>
-                                <div class="form-footer">
-                                    <div class="form-logo-box">
-                                        <img src="images/cparollLogo.png" alt="logo">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="left-col">
-                                <div class="field big-field">
-                                    <label>
-                                        <textarea rows="4" placeholder="Message text"></textarea>
-                                    </label>
-                                </div>
-                                <div class="btn">
-                                    <p>Click to send</p>
-                                </div>
-                                <div class="form-footer-right">
-                                    <div class="block-container">
-                                        <div class="btn-back btn-back-1"></div>
-                                        <div class="btn-front">
-                                            <svg class="frame">
-                                                <rect rx="32" stroke="url(#gradient-half)" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="32" height="32" viewBox="0 0 24 24" fill="none">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.465 1.066C8.638 1.012 9.012 1 12 1C14.988 1 15.362 1.013 16.534 1.066C17.706 1.119 18.506 1.306 19.206 1.577C19.939 1.854 20.604 2.287 21.154 2.847C21.714 3.396 22.146 4.06 22.422 4.794C22.694 5.494 22.88 6.294 22.934 7.464C22.988 8.639 23 9.013 23 12C23 14.988 22.987 15.362 22.934 16.535C22.881 17.705 22.694 18.505 22.422 19.205C22.146 19.9391 21.7133 20.6042 21.154 21.154C20.604 21.714 19.939 22.146 19.206 22.422C18.506 22.694 17.706 22.88 16.536 22.934C15.362 22.988 14.988 23 12 23C9.012 23 8.638 22.987 7.465 22.934C6.295 22.881 5.495 22.694 4.795 22.422C4.06092 22.146 3.39582 21.7133 2.846 21.154C2.28638 20.6047 1.85331 19.9399 1.577 19.206C1.306 18.506 1.12 17.706 1.066 16.536C1.012 15.361 1 14.987 1 12C1 9.012 1.013 8.638 1.066 7.466C1.119 6.294 1.306 5.494 1.577 4.794C1.85372 4.06008 2.28712 3.39531 2.847 2.846C3.39604 2.2865 4.06047 1.85344 4.794 1.577C5.494 1.306 6.294 1.12 7.464 1.066H7.465ZM16.445 3.046C15.285 2.993 14.937 2.982 12 2.982C9.063 2.982 8.715 2.993 7.555 3.046C6.482 3.095 5.9 3.274 5.512 3.425C4.999 3.625 4.632 3.862 4.247 4.247C3.88205 4.60205 3.60118 5.03428 3.425 5.512C3.274 5.9 3.095 6.482 3.046 7.555C2.993 8.715 2.982 9.063 2.982 12C2.982 14.937 2.993 15.285 3.046 16.445C3.095 17.518 3.274 18.1 3.425 18.488C3.601 18.965 3.882 19.398 4.247 19.753C4.602 20.118 5.035 20.399 5.512 20.575C5.9 20.726 6.482 20.905 7.555 20.954C8.715 21.007 9.062 21.018 12 21.018C14.938 21.018 15.285 21.007 16.445 20.954C17.518 20.905 18.1 20.726 18.488 20.575C19.001 20.375 19.368 20.138 19.753 19.753C20.118 19.398 20.399 18.965 20.575 18.488C20.726 18.1 20.905 17.518 20.954 16.445C21.007 15.285 21.018 14.937 21.018 12C21.018 9.063 21.007 8.715 20.954 7.555C20.905 6.482 20.726 5.9 20.575 5.512C20.375 4.999 20.138 4.632 19.753 4.247C19.3979 3.88207 18.9657 3.60121 18.488 3.425C18.1 3.274 17.518 3.095 16.445 3.046ZM10.595 15.391C11.3797 15.7176 12.2534 15.7617 13.0669 15.5157C13.8805 15.2697 14.5834 14.7489 15.0556 14.0422C15.5278 13.3356 15.7401 12.4869 15.656 11.6411C15.572 10.7953 15.197 10.005 14.595 9.405C14.2112 9.02148 13.7472 8.72781 13.2363 8.54515C12.7255 8.36248 12.1804 8.29536 11.6405 8.34862C11.1006 8.40187 10.5792 8.57418 10.1138 8.85313C9.64845 9.13208 9.25074 9.51074 8.9493 9.96185C8.64786 10.413 8.45019 10.9253 8.37052 11.462C8.29084 11.9986 8.33115 12.5463 8.48854 13.0655C8.64593 13.5847 8.91648 14.0626 9.28072 14.4647C9.64496 14.8668 10.0938 15.1832 10.595 15.391ZM8.002 8.002C8.52702 7.47697 9.15032 7.0605 9.8363 6.77636C10.5223 6.49222 11.2575 6.34597 12 6.34597C12.7425 6.34597 13.4777 6.49222 14.1637 6.77636C14.8497 7.0605 15.473 7.47697 15.998 8.002C16.523 8.52702 16.9395 9.15032 17.2236 9.8363C17.5078 10.5223 17.654 11.2575 17.654 12C17.654 12.7425 17.5078 13.4777 17.2236 14.1637C16.9395 14.8497 16.523 15.473 15.998 15.998C14.9377 17.0583 13.4995 17.654 12 17.654C10.5005 17.654 9.06234 17.0583 8.002 15.998C6.94166 14.9377 6.34597 13.4995 6.34597 12C6.34597 10.5005 6.94166 9.06234 8.002 8.002ZM18.908 7.188C19.0381 7.06527 19.1423 6.91768 19.2143 6.75397C19.2863 6.59027 19.3248 6.41377 19.3274 6.23493C19.33 6.05609 19.2967 5.87855 19.2295 5.71281C19.1622 5.54707 19.0624 5.39651 18.936 5.27004C18.8095 5.14357 18.6589 5.04376 18.4932 4.97652C18.3275 4.90928 18.1499 4.87598 17.9711 4.87858C17.7922 4.88119 17.6157 4.91965 17.452 4.9917C17.2883 5.06374 17.1407 5.1679 17.018 5.298C16.7793 5.55103 16.6486 5.88712 16.6537 6.23493C16.6588 6.58274 16.7992 6.91488 17.0452 7.16084C17.2911 7.40681 17.6233 7.54723 17.9711 7.5523C18.3189 7.55737 18.655 7.42669 18.908 7.188Z" fill="url(#gradient-full)"/>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                    <div class="block-container">
-                                        <div class="btn-back btn-back-2"></div>
-                                        <div class="btn-front">
-                                            <svg class="frame">
-                                                <rect rx="32" stroke="url(#gradient-half)" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="32" height="32" viewBox="0 0 24 24" fill="none">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 2.838C1 2.35053 1.19365 1.88303 1.53834 1.53834C1.88303 1.19365 2.35053 1 2.838 1H21.16C21.4016 0.999608 21.6409 1.04687 21.8641 1.13907C22.0874 1.23127 22.2903 1.36661 22.4612 1.53734C22.6322 1.70807 22.7677 1.91083 22.8602 2.13401C22.9526 2.3572 23.0001 2.59643 23 2.838V21.16C23.0003 21.4016 22.9529 21.6409 22.8606 21.8642C22.7683 22.0875 22.6328 22.2904 22.462 22.4613C22.2912 22.6322 22.0884 22.7678 21.8651 22.8602C21.6419 22.9526 21.4026 23.0001 21.161 23H2.838C2.59655 23 2.35746 22.9524 2.1344 22.86C1.91134 22.7676 1.70867 22.6321 1.53798 22.4613C1.3673 22.2905 1.23193 22.0878 1.13962 21.8647C1.04731 21.6416 0.999869 21.4025 1 21.161V2.838ZM9.708 9.388H12.687V10.884C13.117 10.024 14.217 9.25 15.87 9.25C19.039 9.25 19.79 10.963 19.79 14.106V19.928H16.583V14.822C16.583 13.032 16.153 12.022 15.061 12.022C13.546 12.022 12.916 13.111 12.916 14.822V19.928H9.708V9.388ZM4.208 19.791H7.416V9.25H4.208V19.79V19.791ZM7.875 5.812C7.88105 6.08668 7.83217 6.35979 7.73124 6.61532C7.63031 6.87084 7.47935 7.10364 7.28723 7.30003C7.09511 7.49643 6.8657 7.65248 6.61246 7.75901C6.35921 7.86554 6.08724 7.92042 5.8125 7.92042C5.53776 7.92042 5.26579 7.86554 5.01255 7.75901C4.7593 7.65248 4.52989 7.49643 4.33777 7.30003C4.14565 7.10364 3.99469 6.87084 3.89376 6.61532C3.79283 6.35979 3.74395 6.08668 3.75 5.812C3.76187 5.27286 3.98439 4.75979 4.36989 4.38269C4.75539 4.00558 5.27322 3.79442 5.8125 3.79442C6.35178 3.79442 6.86961 4.00558 7.25512 4.38269C7.64062 4.75979 7.86313 5.27286 7.875 5.812Z" fill="url(#gradient-full)"/>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                    <div class="block-container">
-                                        <div class="btn-back btn-back-3"></div>
-                                        <div class="btn-front">
-                                            <svg class="frame">
-                                                <rect rx="32" stroke="url(#gradient-half)" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="32" height="32" viewBox="0 0 24 24" fill="none">
-                                                <path d="M20.665 3.71682L2.935 10.5538C1.725 11.0398 1.732 11.7148 2.713 12.0158L7.265 13.4358L17.797 6.79082C18.295 6.48782 18.75 6.65082 18.376 6.98282L9.843 14.6838H9.841L9.843 14.6848L9.529 19.3768C9.989 19.3768 10.192 19.1658 10.45 18.9168L12.661 16.7668L17.26 20.1638C18.108 20.6308 18.717 20.3908 18.928 19.3788L21.947 5.15082C22.256 3.91182 21.474 3.35082 20.665 3.71682Z" fill="url(#gradient-full)"/>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                    <svg style="visibility: hidden; width: 0; height: 0;">
-                                        <defs>
-                                            <linearGradient id="gradient-full" x1="0%" y1="0%" x2="120%" y2="120%">
-                                                <stop offset="0%" stop-color="#ffffff" />
-                                                <stop offset="100%" stop-color="#ffffff00" />
-                                            </linearGradient>
-                                            <linearGradient id="gradient-half" x1="-50%" y1="-50%" x2="100%" y2="100%">
-                                                <stop offset="0%" stop-color="#ffffff" />
-                                                <stop offset="100%" stop-color="#ffffff00" />
-                                            </linearGradient>
-                                        </defs>
-                                    </svg>
-<!--                                    <div class="social-media">-->
-<!--                                        <img src="images/inst.png" alt="instagram">-->
-<!--                                    </div>-->
-<!--                                    <div class="social-media">-->
-<!--                                        <img src="images/linkedin.png" alt="linkedin">-->
-<!--                                    </div>-->
-<!--                                    <div class="social-media">-->
-<!--                                        <img src="images/tg.png" alt="telegram">-->
-<!--                                    </div>-->
-                                </div>
-                            </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="seo-img-contant">
+                        <div class="seo-banner-img">
+<!--                            <img src="assets/images/seo-img/seo-banner-img1.jpg" alt="Image">-->
+                            <img src="assets/images/main.png" width="570px" height="775px" alt="Image">
                         </div>
-                    </aside>
-                </aside>
-            </section>
+                        <div class="seo-img">
+                            <img src="assets/images/seo-banner-img2.png" class="seo-img-2" alt="Image">
+                            <img src="assets/images/seo-banner-img3.png" class="seo-img-3" alt="Image">
+                        </div>
+                        <div class="seo-shape1">
+                            <img src="assets/images/shape/shape13.png" class="shape-13" alt="shape">
+                            <img src="assets/images/shape/shape15.png" class="shape-15" alt="shape">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seo-shape2">
+                <img src="assets/images/shape/shape16.png" class="shape-16" alt="Shape">
+                <img src="assets/images/shape/shape16.png" class="shape-same" alt="Shape">
+            </div>
         </div>
     </div>
-    <script
-            src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-            crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://daks2k3a4ib2z.cloudfront.net/5317d67d660658b254000454/js/webflow.js?2f83b8326cc4c8f7327b5dba30444a37"></script>
-    <script type="text/javascript" src="./fullpage/jquery.fullpage.min.js"></script>
-    <script type="text/javascript" src="./headerAnimation.js"></script>
+    <!-- End Seo banner Area -->
+
+    <div id="features" class="fun-facts-area pt-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-fun-facts">
+                        <i class="las la-check-double icon-color-1"></i>
+                        <h3>
+                            <span class="odometer odometer-auto-theme" data-count="100"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">1</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span>
+                            +
+                        </h3>
+                        <p>advertisers</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-fun-facts">
+                        <i class="las la-smile-beam icon-color-4"></i>
+                        <h3>
+                            <span class="odometer odometer-auto-theme" data-count="250"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">3</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span>
+                            +
+                        </h3>
+                        <p>handpicked offers</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-fun-facts">
+                        <i class="las la-smile-beam icon-color-4"></i>
+                        <h3>
+                            <span class="odometer odometer-auto-theme" data-count="8"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">3</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span>
+                            +
+                        </h3>
+                        <p>years of affiliate experience</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-fun-facts">
+                        <i class="las la-smile-beam icon-color-4"></i>
+                        <h3>
+                            <span class="odometer odometer-auto-theme" data-count="20000"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">3</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span>
+                            +
+                        </h3>
+                        <p>conversions daily</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SEO Services Area -->
+    <div class="seo-services-area-1 pt-100 pb-70" id="secStart">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="saas-service-card seo-services-1">
+                        <div class="icon bg-1">
+                            <i class="las la-bullhorn"></i>
+                        </div>
+                        <h3>Affiliates</h3>
+                        <p>Join cparoll and encourage your marketing performance! Meet new opportunities, discover fresh products, strive and thrive!</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="saas-service-card seo-services-1">
+                        <div class="icon bg-2">
+                            <i class="las la-chart-pie"></i>
+                        </div>
+                        <h3>Offers</h3>
+                        <p>Large pool of handpicked and pretested offers waiting for traffic. And you know what, we know how to make you traffic convert!</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+                    <div class="saas-service-card seo-services-1">
+                        <div class="icon bg-3">
+                            <i class="las la-search-plus"></i>
+                        </div>
+                        <h3>Approach</h3>
+                        <p>Beneficial and friendly conditions for all. We create most comfortable climate for you to grow with unique deals, flexibe approach and powerful support!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End SEO Services Area -->
+
+    <!-- About Us Area -->
+    <div id="partners" class="about-us-area pt-100 pb-100" id="sec1">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-us-img">
+<!--                        <img src="assets/images/seo-img/about-us1.png" alt="Image">-->
+                        <img src="tops.png" alt="Image">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="about-us-text">
+                        <div class="section-title">
+
+                            <h2 style="transition-duration: 0.3s; font-size: 35px"><b><b id="retype">Monetization</b>
+                                never been this
+                                easy</b></h2>
+                        </div>
+
+                        <div class="about-text" style="min-height: 290px; display: flex; align-items: center">
+                            <ul id="sec2Text" style="transition-duration: 0.3s; font-size: 20px">
+                                <li>access the most <br> relevant product</li>
+                                <li>get support from <span>a</span> to <span>z</span></li>
+                                <li>squeeze every click</li>
+                                <li>get commission</li>
+                            </ul>
+                        </div>
+
+
+
+                        <div class="about-btn">
+                            <span style="cursor:pointer;" id='changeBtn' onclick="changeBlock()" class="default-btn">For publishers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- End About Us Area -->
+    
+        <div class="container" style="margin-top: 80px;">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="section-title">
+
+                        <h2>Approach</h2>
+                    </div>
+
+                    <div class="who-we-are-text">
+                        <p>With over 8 years of performance marketing, campaign management, advertiser sales, roi ups and downs, <span>cparoll</span> team is ready to share gained experience with partners. We will do our best to help our partners strive and thrive.</p>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="who-we-are-img bg-color">
+                        <!--                        <img src="assets/images/seo-img/who-we-are-img.jpg" class="we-are-img" alt="Image">-->
+                        <img width="400" src="approach.png" class="we-are-img" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <div id="pricing" class="our-pricing-area pt-100 pb-70">
+        <div class="container">
+            <div class="section-title">
+                <h2>Payout opportunities</h2>
+                <p></p>
+            </div>
+
+            <div class="tab pricing-tab">
+
+                <div class="tab-content">
+                    <div class="tabs-item">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="prising-card pric-tabe">
+                                    <div class="price-header text-center">
+                                        <h3>Installs up to:</h3>
+                                        <h4>$5</h4>
+                                        <p>Per install</p>
+                                    </div>
+
+                                    <ul>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            India
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Indonesia
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Germany
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            United States
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Thailand
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            France
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="prising-card pric-tabe">
+                                    <div class="price-header text-center">
+                                        <h3>SOI sweeps up to:</h3>
+                                        <h4>$7</h4>
+                                        <p>Per single opt-in</p>
+                                    </div>
+
+                                    <ul>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            United States
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            United Kingdom
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Germany
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Spain
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Italy
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            France
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="prising-card pric-tabe">
+                                    <div class="price-header text-center">
+                                        <h3>CC Trials up to:</h3>
+                                        <h4>$35</h4>
+                                        <p>Per CC submit</p>
+                                    </div>
+
+                                    <ul>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            United States
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Spain
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            France
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Italy
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Germany
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Netherlands
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-2">
+                                <div class="prising-card pric-tabe">
+                                    <div class="price-header text-center">
+                                        <h3>E-commerce<br>Commission up to:</h3>
+                                        <h4>$50</h4>
+                                        <p>Per sale</p>
+                                    </div>
+
+                                    <ul>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Indonesia
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Spain
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            India
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Thailand
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            United States
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Germany
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3">
+                                <div class="prising-card pric-tabe">
+                                    <div class="price-header text-center">
+                                        <h3>Desktop software up to:</h3>
+                                        <h4>$120</h4>
+                                        <p>Per sale</p>
+                                    </div>
+
+                                    <ul>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            United States
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Canada
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Australia
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            United Kingdom
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Germany
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Netherlands
+                                        </li>
+                                        <li>
+                                            <p></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs-item">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="prising-card pric-tabe">
+                                    <div class="price-header text-center">
+                                        <h3>Lorem Pack</h3>
+                                        <h4>$30000</h4>
+                                        <p>Per big Lorem</p>
+                                    </div>
+
+                                    <ul>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Lorem ipsum
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            dolor sit amet
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            consectetur adipisicing elit
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Enim et illo soluta ullam voluptatum
+                                        </li>
+                                        <li class="not-provide">
+                                            <i class="las la-times"></i>
+                                            Doloribus eum incidunt
+                                        </li>
+                                        <li class="not-provide">
+                                            <i class="las la-times"></i>
+                                            libero magnam magni
+                                        </li>
+                                        <li class="not-provide">
+                                            <i class="las la-times"></i>
+                                            mollitia odio omnis
+                                        </li>
+                                        <li class="not-provide">
+                                            <i class="las la-times"></i>
+                                            optio perspiciatis sint
+                                        </li>
+                                    </ul>
+
+                                    <div class="price-btn text-center">
+                                        <a href="#" class="default-btn bg-color">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="prising-card pric-tabe">
+                                    <div class="price-header text-center">
+                                        <h3>Business Lorem</h3>
+                                        <h4>$50000</h4>
+                                        <p>Per big Lorem</p>
+                                    </div>
+
+                                    <ul>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Lorem ipsum
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            dolor sit amet
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            consectetur adipisicing elit
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Enim et illo soluta ullam voluptatum
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Doloribus eum incidunt
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            libero magnam magni
+                                        </li>
+                                        <li class="not-provide">
+                                            <i class="las la-times"></i>
+                                            mollitia odio omnis
+                                        </li>
+                                        <li class="not-provide">
+                                            <i class="las la-times"></i>
+                                            optio perspiciatis sint
+                                        </li>
+                                    </ul>
+
+                                    <div class="price-btn text-center">
+                                        <a href="#" class="default-btn bg-color">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="prising-card pric-tabe">
+                                    <div class="price-header text-center">
+                                        <h3>Loremium</h3>
+                                        <h4>$100000</h4>
+                                        <p>Per big Lorem</p>
+                                    </div>
+
+                                    <ul>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Lorem ipsum
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            dolor sit amet
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            consectetur adipisicing elit
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Enim et illo soluta ullam voluptatum
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Doloribus eum incidunt
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            libero magnam magni
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            mollitia odio omnis
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            optio perspiciatis sint
+                                        </li>
+                                    </ul>
+
+                                    <div class="price-btn text-center">
+                                        <a href="#" class="default-btn bg-color">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-2">
+                                <div class="prising-card pric-tabe">
+                                    <div class="price-header text-center">
+                                        <h3>High Loremium</h3>
+                                        <h4>$200000</h4>
+                                        <p>Per big Lorem</p>
+                                    </div>
+
+                                    <ul>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Lorem ipsum
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            dolor sit amet
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            consectetur adipisicing elit
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Enim et illo soluta ullam voluptatum
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            Doloribus eum incidunt
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            libero magnam magni
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            mollitia odio omnis
+                                        </li>
+                                        <li>
+                                            <i class="las la-check"></i>
+                                            optio perspiciatis sint
+                                        </li>
+                                    </ul>
+
+                                    <div class="price-btn text-center">
+                                        <a href="#" class="default-btn bg-color">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3">
+                            <div class="prising-card pric-tabe">
+                                <div class="price-header text-center">
+                                    <h3>Super Loremium</h3>
+                                    <h4>$300000</h4>
+                                    <p>Per big Lorem</p>
+                                </div>
+
+                                <ul>
+                                    <li>
+                                        <i class="las la-check"></i>
+                                        Lorem ipsum
+                                    </li>
+                                    <li>
+                                        <i class="las la-check"></i>
+                                        dolor sit amet
+                                    </li>
+                                    <li>
+                                        <i class="las la-check"></i>
+                                        consectetur adipisicing elit
+                                    </li>
+                                    <li>
+                                        <i class="las la-check"></i>
+                                        Enim et illo soluta ullam voluptatum
+                                    </li>
+                                    <li>
+                                        <i class="las la-check"></i>
+                                        Doloribus eum incidunt
+                                    </li>
+                                    <li>
+                                        <i class="las la-check"></i>
+                                        libero magnam magni
+                                    </li>
+                                    <li>
+                                        <i class="las la-check"></i>
+                                        mollitia odio omnis
+                                    </li>
+                                    <li>
+                                        <i class="las la-check"></i>
+                                        optio perspiciatis sint
+                                    </li>
+                                </ul>
+
+                                <div class="price-btn text-center">
+                                    <a href="#" class="default-btn bg-color">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subscribe Area -->
+    <div id="contact" class="contact-area ptb-100">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="contact-content">
+                <form id="contactForm" novalidate="true">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name" required="" data-error="Please enter your name" placeholder="Your name">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" id="email" required="" data-error="Please enter your email" placeholder="Your email address">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="msg_subject" id="msg_subject" class="form-control" required="" data-error="Please enter your subject" placeholder="Your Subject">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="phone_number" class="form-control" id="phone_number" required="" data-error="Please enter your phone number" placeholder="Your phone number">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12">
+                            <div class="form-group">
+                                <textarea name="message" id="message" class="form-control" cols="30" rows="6" required="" data-error="Please enter your message" placeholder="Write your message..."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12 text-center">
+                            <button type="submit" class="default-btn disabled" style="pointer-events: all; cursor: pointer;">Send Message</button>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Subscribe Area -->
+
+    <!-- Footer Area -->
+    <footer class="footer-area pt-70 bor-radius-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="footer-widget">
+                        <div class="logo">
+                            <img src="Logo-white.png" alt="logo">
+                        </div>
+                        <ul class="footer-social">
+                            <li>
+                                <a class="bg-2" href="#" target="_blank">
+                                    <i class="lab la-telegram bg-2"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="bg-3" href="#" target="_blank">
+                                    <i class="lab la-linkedin-in bg-3"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="bg-4" href="#" target="_blank">
+                                    <i class="lab la-instagram bg-4"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright-text">
+                <p>Copyright @2022 Cparoll. All Rights Reserved </p>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Area -->
+
+    <!-- Go Top -->
+    <div class="go-top active">
+        <i class="las la-angle-double-up"></i>
+    </div>
+    <!-- End Go Top -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Owl carousel JS -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Magnific JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Wow JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Odometer JS -->
+    <script src="assets/js/odometer.min.js"></script>
+    <!-- Jquery Apper JS -->
+    <script src="assets/js/jquery.appear.js"></script>
+    <!-- Form Validator JS -->
+    <script src="assets/js/form-validator.min.js"></script>
+    <!-- Contact JS -->
+    <script src="assets/js/contact-form-script.js"></script>
+    <!-- Ajaxchimp JS -->
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+
     <script>
-        $(document).ready(function() {
-            $('#dropDownTrigger').mouseenter(function(){
-                $('.drop-down').addClass('drop-down--active');
-            });
-            $('#dropDownUnTrigger').mouseleave(function () {
-                $('.drop-down').toggleClass('drop-down--active');
-            })
-            $('#fullpage').fullpage({
-                navigation: true,
-                navigationPosition: 'right',
-                css3: true,
-                scrollingSpeed: 700,
-            });
-        });
-
-
-        const changeBlock = function (type) {
-            currentBlock2 = type;
-            if (type === 1) {
-                const el = document.getElementById('retype');
-                deleter(el).then(() => {
-                    writer(0, "Monetization", el);
-                })
-                document.getElementById('block2Content_').style.opacity = '0'
-                setTimeout(() => {
-                    console.log('animation closed');
-                    document.getElementById('block2Content_').style.display = 'none';
-                    document.getElementById('block2Content').style.display = 'flex';
-                    setTimeout(() => {
-                        document.getElementById('block2Content').style.opacity = '1'
-                    }, 100)
-                }, 1000)
-            }
-            else {
-                const el = document.getElementById('retype');
-                deleter(el).then(() => {
-                    writer(0, "Acquisition", el);
-                })
-                document.getElementById('block2Content').style.opacity = '0';
-                setTimeout(() => {
-                    console.log('animation closed');
-                    document.getElementById('block2Content').style.display = 'none';
-                    document.getElementById('block2Content_').style.display = 'flex';
-                    setTimeout(() => {
-                        document.getElementById('block2Content_').style.opacity = '1'
-                    }, 100)
-                }, 1000)
-            }
-        }
-
-
         const writer = function (i = 0, text = "", element) {
             if (i < text.length) {
                 element.innerHTML = element.innerHTML.substr(0, element.innerHTML.length - 1);
@@ -1427,24 +886,51 @@
             }
         }
 
-        document.addEventListener("DOMContentLoaded", function() {
-            animate();
-            console.log(111);
-            writer(0, "performance", document.getElementById('title-writer-first'))
-            setTimeout(() => {
-                writer(0, "agency", document.getElementById('title-writer-second'))
-                setTimeout(() => {
-                    const el = document.getElementById('title-writer-second');
-                    setInterval(() => {
-                        el.innerHTML += "|"
-                        setTimeout(() => {
-                            el.innerHTML = el.innerHTML.substr(0, el.innerHTML.length - 1);
-                        }, 300)
-                    }, 600)
-                }, 530)
-            }, 925);
-        });
+        let currentBlock2 = 1;
 
+        const changeBlock = function (type = 0) {
+            if (currentBlock2 === 1)
+                currentBlock2 = 2
+            else
+                currentBlock2 = 1
+            type = currentBlock2
+            if (type === 1) {
+                const el = document.getElementById('retype');
+                deleter(el).then(() => {
+                    writer(0, "Monetization", el);
+                })
+                document.getElementById('sec2Text').style.opacity = '0'
+                setTimeout(() => {
+                    document.getElementById('sec2Text').innerHTML = `
+                          <ul class="monetization" style="margin-left: 0; padding-left: 0px;">
+                            <li style="list-style-type: none;"><i class="las la-check"></i> Access the most relevant product</li>
+                            <li style="list-style-type: none;"><i class="las la-check"></i> Get support from <span>a</span> to <span>z</span></li>
+                            <li style="list-style-type: none;"><i class="las la-check"></i> Squeeze every click</li>
+                            <li style="list-style-type: none;"><i class="las la-check"></i> Get commission</li>
+                          </ul>`;
+                    document.getElementById('sec2Text').style.opacity = '1';
+                    document.getElementById('changeBtn').textContent = 'For advertizers';
+                }, 1000)
+            }
+            else {
+                const el = document.getElementById('retype');
+                deleter(el).then(() => {
+                    writer(0, "Acquisition", el);
+                })
+                document.getElementById('sec2Text').style.opacity = '0'
+                setTimeout(() => {
+                    document.getElementById('sec2Text').innerHTML = `
+                    <ul class="acquisition" style="margin-left: 0; padding-left: 0px;">
+                        <li style="list-style-type: none;"><i class="las la-check"></i> Access the most relevant publishers</li>
+                        <li style="list-style-type: none;"><i class="las la-check"></i> Get widest optimization opportunities</li>
+                        <li style="list-style-type: none;"><i class="las la-check"></i> Be protected from fraudulent activities</li>
+                        <li style="list-style-type: none;"><i class="las la-check"></i> Fill your product with leads</li>
+                    </ul>`;
+                    document.getElementById('sec2Text').style.opacity = '1';
+                    document.getElementById('changeBtn').textContent = 'For publishers';
+                }, 1000)
+            }
+        }
     </script>
-</body>
+    </body>
 </html>

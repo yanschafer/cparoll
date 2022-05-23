@@ -1,0 +1,851 @@
+@media only screen and (max-width: 767px) {
+  .main-navbar .navbar-brand {
+    max-width: 100px; }
+  .main-navbar.startup-nav {
+    border-bottom: 1px solid #af43be;
+    background-color: #af43be; }
+  .main-navbar.personal-nav {
+    border-bottom: 1px solid #4b199c;
+    background-color: #4d19a2; }
+
+  .saas-banner-area {
+    height: 100%; }
+    .saas-banner-area .saas-banner-content {
+      padding-top: 120px;
+      padding-bottom: 30px; }
+      .saas-banner-area .saas-banner-content span {
+        font-size: 13px; }
+      .saas-banner-area .saas-banner-content h1 {
+        font-size: 30px; }
+      .saas-banner-area .saas-banner-content p {
+        font-size: 14px; }
+      .saas-banner-area .saas-banner-content .saas-banner-btn .default-btn.bg-main {
+        padding: 10px 30px; }
+    .saas-banner-area .saas-banner-img {
+      padding-bottom: 20px; }
+      .saas-banner-area .saas-banner-img .saas-img-2 {
+        max-width: 60px;
+        right: 0;
+        left: 0;
+        top: 0;
+        margin: auto; }
+    .saas-banner-area .saas-shape-content {
+      display: none; }
+
+  .default-btn {
+    padding: 10px 25px;
+    font-size: 14px; }
+
+  p {
+    font-size: 15px; }
+
+  .ptb-100 {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+
+  .pt-100 {
+    padding-top: 50px; }
+
+  .pb-100 {
+    padding-bottom: 50px; }
+
+  .pt-70 {
+    padding-top: 30px; }
+
+  .pb-70 {
+    padding-bottom: 20px; }
+
+  .section-title {
+    margin: 0 auto 30px; }
+    .section-title span {
+      font-size: 13px;
+      margin-bottom: 5px; }
+    .section-title h2 {
+      font-size: 25px; }
+
+  .screens-slider-area .screens-slider.owl-theme .owl-dots .owl-dot.active span {
+    width: 25px; }
+
+  /* SaaS Responsive */
+  .saas-services-area.pt-260 {
+    padding-top: 50px; }
+  .saas-services-area .service-shape {
+    top: 10px; }
+
+  .saas-service-card {
+    padding: 15px 25px;
+    text-align: center; }
+    .saas-service-card .icon {
+      margin: 0 auto 25px; }
+      .saas-service-card .icon i {
+        left: -25px; }
+    .saas-service-card:hover .icon i {
+      left: 0px; }
+
+  .features-area .features-card-content .title {
+    font-size: 23px;
+    margin-bottom: 25px; }
+  .features-area .features-contant {
+    margin-bottom: 30px; }
+
+  .saas-features {
+    padding: 10px 10px 10px 65px; }
+    .saas-features h3 {
+      font-size: 20px; }
+    .saas-features .icon {
+      font-size: 25px;
+      width: 40px;
+      height: 40px;
+      left: 5px;
+      top: 25px; }
+      .saas-features .icon i {
+        top: -20px; }
+
+  .prising-card ul {
+    margin: 30px 0 0 40px; }
+
+  .saas-downloand-area .download-image {
+    text-align: center;
+    margin-top: 30px; }
+    .saas-downloand-area .download-image .mobile-1 {
+      max-width: 100px;
+      border-radius: 15px; }
+    .saas-downloand-area .download-image .mobile-2 {
+      max-width: 235px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: -60px; }
+
+  .clients-area .section-title {
+    margin: 0 auto 15px; }
+  .clients-area .clients-slider .clients-slider-item .client-text {
+    padding: 20px;
+    text-align: center; }
+    .clients-area .clients-slider .clients-slider-item .client-text .text p {
+      font-size: 14px; }
+    .clients-area .clients-slider .clients-slider-item .client-text .text i {
+      display: none; }
+  .clients-area .clients-slider .clients-slider-item .client-image {
+    margin: auto; }
+  .clients-area .clients-slider.owl-theme .owl-nav {
+    position: initial; }
+    .clients-area .clients-slider.owl-theme .owl-nav .owl-prev, .clients-area .clients-slider.owl-theme .owl-nav .owl-next {
+      position: absolute;
+      bottom: 360px;
+      left: 0; }
+      .clients-area .clients-slider.owl-theme .owl-nav .owl-prev.owl-next, .clients-area .clients-slider.owl-theme .owl-nav .owl-next.owl-next {
+        left: auto;
+        right: 0; }
+
+  .saas-feature-two {
+    padding-left: 65px; }
+
+  .subscribe-area .subscribe-contant {
+    padding: 20px 15px 30px; }
+    .subscribe-area .subscribe-contant .subscrive-text {
+      margin-left: auto;
+      text-align: center; }
+      .subscribe-area .subscribe-contant .subscrive-text h3 {
+        font-size: 30px; }
+    .subscribe-area .subscribe-contant .subscribe-form .btn {
+      padding: 10px 20px; }
+    .subscribe-area .subscribe-contant .subscribe-form .form-control {
+      max-width: 90%;
+      margin-top: 30px;
+      padding: 10px 17px; }
+
+  .footer-area.pt-200 {
+    padding-top: 150px; }
+  .footer-area .copyright-text {
+    margin-top: 0; }
+
+  /* Personal Area Responsive */
+  .personal-banner-area {
+    padding-top: 125px;
+    background-position: inherit;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 130px; }
+    .personal-banner-area .personal-banner-img {
+      margin-bottom: 30px; }
+    .personal-banner-area .personal-bennr-text span {
+      font-size: 16px;
+      margin-bottom: 0; }
+    .personal-banner-area .personal-bennr-text h1 {
+      font-size: 40px; }
+    .personal-banner-area .personal-bennr-text h3 {
+      font-size: 20px; }
+    .personal-banner-area .personal-bennr-text p {
+      font-size: 16px; }
+
+  .testimonials-slider .testimonials-slider-item {
+    padding: 65px 30px 15px;
+    margin: 60px auto 20px; }
+    .testimonials-slider .testimonials-slider-item h3 {
+      font-size: 20px;
+      margin-bottom: 10px; }
+    .testimonials-slider .testimonials-slider-item::before {
+      display: none; }
+
+  .fun-facts-area .single-fun-facts h3 {
+    font-size: 30px; }
+  .fun-facts-area .single-fun-facts i {
+    top: 0; }
+
+  .choose-us-area .chooses-img-contant {
+    padding-bottom: 50px; }
+    .choose-us-area .chooses-img-contant::before {
+      display: none; }
+    .choose-us-area .chooses-img-contant .choose-us-img .popup-video {
+      right: 0;
+      left: 0;
+      margin: auto; }
+    .choose-us-area .chooses-img-contant .choose-us-img .choose-img {
+      left: 0;
+      max-width: 100px;
+      bottom: 0; }
+  .choose-us-area .choose-card-contant {
+    padding-left: 0;
+    margin-bottom: -30px; }
+
+  .choose-card h3 {
+    font-size: 20px; }
+
+  .contact-area .contact-content .form-group .form-control {
+    height: 50px; }
+
+  /* Seo Marketing Responsive */
+  .seo-banner-area {
+    padding-top: 130px; }
+    .seo-banner-area .seo-banner-text {
+      margin-bottom: 30px; }
+      .seo-banner-area .seo-banner-text span {
+        font-size: 16px;
+        margin-bottom: 0; }
+      .seo-banner-area .seo-banner-text h1 {
+        font-size: 30px;
+        margin-bottom: 10px; }
+      .seo-banner-area .seo-banner-text p {
+        font-size: 16px; }
+      .seo-banner-area .seo-banner-text .seo-banner-btn .seo-btn-bg1 {
+        padding: 10px 15px; }
+      .seo-banner-area .seo-banner-text .seo-banner-btn .seo-btn-bg2 {
+        padding: 10px 15px; }
+    .seo-banner-area .seo-img-contant .seo-img .seo-img-2 {
+      max-width: 100px;
+      right: -10px; }
+    .seo-banner-area .seo-img-contant .seo-img .seo-img-3 {
+      max-width: 100px;
+      left: -10px; }
+
+  .about-us-area .about-us-img {
+    margin-bottom: 15px; }
+  .about-us-area .about-us-text .about-card {
+    padding-left: 0;
+    margin-right: 0;
+    text-align: center; }
+    .about-us-area .about-us-text .about-card h3 {
+      position: initial;
+      border-right: none; }
+  .about-us-area .about-us-text .about-btn {
+    text-align: center; }
+
+  .who-we-area .who-we-are-img {
+    margin-top: 30px; }
+    .who-we-area .who-we-are-img .we-are-img .we-are-1 {
+      max-width: 120px;
+      right: 0;
+      left: 0;
+      margin: auto;
+      bottom: 0; }
+    .who-we-area .who-we-are-img .we-are-img .we-are-2 {
+      max-width: 100px; }
+
+  .pricing-tab .tabs li {
+    padding: 10px 20px; }
+    .pricing-tab .tabs li.save-card {
+      padding: 5px 7px;
+      font-size: 8px;
+      right: 0;
+      top: -30px;
+      font-size: 13px; }
+      .pricing-tab .tabs li.save-card span {
+        font-size: 8px; }
+
+  .case-study-card {
+    text-align: center; }
+    .case-study-card .caption {
+      padding: 15px 25px; }
+      .case-study-card .caption .study-text h3 {
+        font-size: 20px;
+        margin-bottom: 8px; }
+
+  /* Startup Agency Responsive  */
+  .startup-banner-area {
+    padding-top: 110px;
+    padding-bottom: 200px; }
+    .startup-banner-area .startup-banner-text {
+      text-align: center; }
+      .startup-banner-area .startup-banner-text h1 {
+        font-size: 31px;
+        margin-bottom: 25px; }
+      .startup-banner-area .startup-banner-text p {
+        font-size: 16px; }
+    .startup-banner-area .banner-video-contant .popup-video {
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: -120px; }
+
+  .about-us-two .about-two-text {
+    margin-bottom: 30px; }
+  .about-us-two .about-two-img .about-shape .shape-17 {
+    right: 0;
+    top: 0;
+    max-width: 240px; }
+  .about-us-two .about-two-img .popup-video {
+    left: 0;
+    right: 0;
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%); }
+
+  .video-btn a {
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    line-height: 70px; }
+    .video-btn a .ripple {
+      width: 70px;
+      height: 70px;
+      margin: -35px 0 0 -35px; }
+
+  .aweseome-area .aweseome-img {
+    margin-bottom: 30px; }
+    .aweseome-area .aweseome-img .awesome-1 {
+      max-width: 100%; }
+    .aweseome-area .aweseome-img .aweseome-img-card {
+      padding: 20px 25px; }
+      .aweseome-area .aweseome-img .aweseome-img-card h3 {
+        font-size: 16px; }
+      .aweseome-area .aweseome-img .aweseome-img-card .rating {
+        font-size: 15px;
+        line-height: 1; }
+
+  .testimonials-area.testimonials-bg::before {
+    height: 100%; }
+
+  /* App Responsive */
+  .main-navbar {
+    background-color: #fff; }
+    .main-navbar.app-nav .nav-btn {
+      margin-bottom: 8px; }
+      .main-navbar.app-nav .nav-btn .bg-main {
+        background-color: #567df4;
+        color: #ffffff; }
+
+  .app-banner-area {
+    padding-bottom: 0; }
+    .app-banner-area .app-bennr-text {
+      padding-top: 80px; }
+      .app-banner-area .app-bennr-text span {
+        margin-bottom: 10px;
+        font-size: 15px; }
+      .app-banner-area .app-bennr-text h1 {
+        font-size: 30px;
+        margin-bottom: 20px; }
+      .app-banner-area .app-bennr-text p {
+        font-size: 15px; }
+      .app-banner-area .app-bennr-text .app-text {
+        padding-left: 180px;
+        max-width: 270px;
+        margin-left: auto;
+        margin-right: auto; }
+        .app-banner-area .app-bennr-text .app-text h3 {
+          left: 40px; }
+      .app-banner-area .app-bennr-text .app-shapes .shape-30 {
+        top: 40px;
+        left: -20px;
+        max-width: 100px; }
+    .app-banner-area .bg-shape {
+      max-width: 150px; }
+
+  .easy-step-area .easy-step-img {
+    margin-bottom: 30px;
+    text-align: center; }
+    .easy-step-area .easy-step-img .step-1 {
+      max-width: 200px;
+      border-radius: 33px; }
+    .easy-step-area .easy-step-img .shape-1 {
+      max-width: 200px;
+      top: 0;
+      left: -15px; }
+    .easy-step-area .easy-step-img .shape-21 {
+      right: 20px;
+      max-width: 100px;
+      bottom: 0; }
+
+  .powerful-area .section-title h2 {
+    font-size: 28px; }
+  .powerful-area .powerful-img img {
+    border-radius: 40px; }
+
+  .perfect-area .section-title h2 {
+    font-size: 30px; }
+  .perfect-area .perfect-img {
+    margin-bottom: 30px;
+    text-align: center; }
+    .perfect-area .perfect-img .perfect-1 {
+      max-width: 280px;
+      border-radius: 43px; }
+    .perfect-area .perfect-img .perfect-shape {
+      left: -50px;
+      max-width: 200px; }
+  .perfect-area .perfect-card h3 {
+    font-size: 20px; }
+
+  .app-features-area {
+    padding: 50px 0; }
+    .app-features-area .app-features-img {
+      margin-bottom: 140px; }
+      .app-features-area .app-features-img .mr-3, .app-features-area .app-features-img .mx-3 {
+        margin-bottom: 20px; }
+    .app-features-area .app-features {
+      max-width: 300px; }
+
+  .popup-video-area {
+    height: 260px; }
+
+  .clients-slider-two-area .clients-slider-two .slider-two-item {
+    padding: 20px 15px; }
+    .clients-slider-two-area .clients-slider-two .slider-two-item img {
+      top: 25px;
+      right: 20px; }
+    .clients-slider-two-area .clients-slider-two .slider-two-item .clients-icon {
+      bottom: 15px;
+      right: 25px;
+      font-size: 20px; }
+
+  .footer-area .copyright-text {
+    padding: 10px 0; } }
+@media only screen and (max-width: 575px) {
+  .easy-step-area .easy-step-card {
+    margin-bottom: 15px;
+    padding-bottom: 15px; }
+    .easy-step-area .easy-step-card:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0; }
+    .easy-step-area .easy-step-card.left-text .step-signle-card {
+      margin-bottom: 15px; }
+    .easy-step-area .easy-step-card.right-text .step-signle-card {
+      margin-top: 15px; } }
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .app-banner-area .app-bennr-text .app-text {
+    padding-left: 150px; }
+
+  /* Personal Area Responsive */
+  .my-intro ul li {
+    margin-right: 20px; }
+
+  .case-study-card {
+    text-align: center; }
+
+  /* Seo Marketing Responsive */
+  .pricing-tab .tabs li.save-card {
+    right: 65px; }
+
+  .prising-card {
+    padding: 20px 15px; }
+    .prising-card ul {
+      margin: 15px 0 0 0; }
+      .prising-card ul li {
+        font-size: 15px; }
+
+  .case-study-card .caption {
+    padding: 10px 5px; }
+    .case-study-card .caption .study-text h3 {
+      font-size: 18px;
+      margin-bottom: 5px; }
+    .case-study-card .caption .study-text p {
+      margin-bottom: 5px; }
+    .case-study-card .caption .study-text a i {
+      font-size: 20px; }
+
+  /* App Responsive */
+  .app-banner-area .app-bennr-text .app-text h3 {
+    font-size: 33px;
+    margin-bottom: 0; }
+  .app-banner-area .app-bennr-text .app-text p {
+    line-height: 1.4; }
+  .app-banner-area .app-bennr-text .app-shapes .shape-1 {
+    left: -210px;
+    max-width: 240px; }
+
+  .powerful-area .powerful-img {
+    max-width: 300px;
+    margin: auto; }
+
+  .easy-step-area .easy-step-img .step-1 {
+    max-width: 260px;
+    border-radius: 35px; }
+
+  .our-service-card {
+    padding: 30px 18px; }
+
+  .app-features-area .app-features-img {
+    margin-bottom: 135px; }
+    .app-features-area .app-features-img .mr-3 {
+      margin-bottom: 0; }
+  .app-features-area .app-features {
+    max-width: 300px; } }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* SaaS Responsive */
+  .saas-banner-area .saas-banner-content h1 {
+    color: #ffffff;
+    font-size: 55px;
+    margin-bottom: 15px; }
+  .saas-banner-area .saas-banner-img .saas-img-2 {
+    right: 0;
+    left: 0;
+    margin: auto;
+    max-width: 150px; }
+
+  .saas-services-area.pt-260 {
+    padding-top: 85px; }
+  .saas-services-area .service-shape {
+    top: 35px; }
+
+  .features-area .features-contant {
+    margin-bottom: 30px; }
+
+  .saas-downloand-area .section-title {
+    text-align: center; }
+  .saas-downloand-area .download-text {
+    margin-bottom: 30px;
+    text-align: center; }
+  .saas-downloand-area .download-image {
+    text-align: center; }
+    .saas-downloand-area .download-image .mobile-1 {
+      max-width: 230px; }
+    .saas-downloand-area .download-image .mobile-2 {
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: -135px;
+      max-width: 530px; }
+
+  .clients-area .clients-slider .clients-slider-item .client-text {
+    padding: 20px;
+    text-align: center; }
+    .clients-area .clients-slider .clients-slider-item .client-text .text i {
+      display: none; }
+  .clients-area .clients-slider .clients-slider-item .client-image {
+    margin: auto; }
+  .clients-area .clients-slider.owl-theme .owl-nav {
+    position: initial; }
+    .clients-area .clients-slider.owl-theme .owl-nav .owl-prev, .clients-area .clients-slider.owl-theme .owl-nav .owl-next {
+      position: absolute;
+      bottom: 360px;
+      left: 0; }
+      .clients-area .clients-slider.owl-theme .owl-nav .owl-prev.owl-next, .clients-area .clients-slider.owl-theme .owl-nav .owl-next.owl-next {
+        left: auto;
+        right: 0; }
+
+  .footer-area .copyright-text {
+    margin-top: 20px; }
+
+  .pb-70 {
+    padding-bottom: 40px; }
+
+  .case-study-card .caption {
+    padding: 45px 15px; }
+
+  /* Seo Marketing Responsive */
+  .main-navbar.seo-nav .navbar-nav .nav-link {
+    margin: 0 10px; }
+  .main-navbar.seo-nav .nav-btn .default-btn {
+    padding: 8px 20px;
+    font-size: 15px; }
+
+  .seo-banner-area {
+    text-align: center; }
+    .seo-banner-area .seo-banner-text h1 {
+      font-size: 50px;
+      margin-bottom: 25px; }
+
+  .pricing-tab .tabs li.save-card {
+    right: 19%; }
+
+  .ptb-100 {
+    padding-top: 70px;
+    padding-bottom: 70px; }
+
+  .pt-100 {
+    padding-top: 70px; }
+
+  .pb-100 {
+    padding-bottom: 70px; }
+
+  .pt-70 {
+    padding-top: 40px; }
+
+  /* Personal Area Responsive */
+  .main-navbar.personal-nav .navbar-nav .nav-link {
+    margin: 0 10px; }
+
+  .personal-banner-area {
+    padding-top: 125px;
+    background-position: inherit;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 130px;
+    text-align: center; }
+    .personal-banner-area .personal-banner-img {
+      margin-bottom: 30px; }
+    .personal-banner-area .personal-bennr-text span {
+      font-size: 16px;
+      margin-bottom: 0; }
+    .personal-banner-area .personal-bennr-text h1 {
+      font-size: 40px; }
+    .personal-banner-area .personal-bennr-text h3 {
+      font-size: 20px; }
+    .personal-banner-area .personal-bennr-text p {
+      font-size: 16px; }
+
+  .choose-us-area .chooses-img-contant {
+    margin-bottom: 30px; }
+    .choose-us-area .chooses-img-contant .choose-us-img {
+      text-align: center; }
+      .choose-us-area .chooses-img-contant .choose-us-img .popup-video {
+        left: 0;
+        right: 0;
+        margin: auto; }
+      .choose-us-area .chooses-img-contant .choose-us-img .choose-img {
+        left: 0; }
+
+  .who-we-area .who-we-are-img {
+    margin-top: 30px; }
+
+  .testimonials-slider .testimonials-slider-item {
+    padding: 70px 90px; }
+  .testimonials-slider.owl-theme .owl-nav .owl-prev, .testimonials-slider.owl-theme .owl-nav .owl-next {
+    top: 56%; }
+
+  .subscribe-area .subscribe-contant .subscrive-text {
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 30px; }
+  .subscribe-area .subscribe-contant .subscribe-form .form-control {
+    max-width: 400px; }
+
+  .my-intro .section-title {
+    margin-left: 0; }
+
+  /* Seo Marketing Responsive */
+  .seo-banner-area .seo-img-contant .seo-img .seo-img-2 {
+    max-width: 200px;
+    right: 0; }
+  .seo-banner-area .seo-img-contant .seo-img .seo-img-3 {
+    left: -30px; }
+
+  .seo-banner-text {
+    margin-bottom: 30px; }
+
+  /* Startup Agency Responsive  */
+  .main-navbar.startup-nav {
+    background-color: #9a2ec1; }
+
+  .prising-card ul {
+    margin: 35px 0 0 40px; }
+
+  .startup-banner-area .startup-banner-text h1 {
+    font-size: 45px;
+    line-height: 1.4;
+    margin-bottom: 30px; }
+  .startup-banner-area .banner-video-contant .popup-video {
+    left: auto;
+    right: 160px;
+    bottom: 30px; }
+
+  .about-us-two .about-two-img .about-shape .shape-17 {
+    right: 0;
+    top: 0;
+    max-width: 550px; }
+  .about-us-two .about-two-img .popup-video {
+    left: 0;
+    right: 0;
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%); }
+
+  .aweseome-area .aweseome-img {
+    text-align: center;
+    margin-bottom: 30px; }
+
+  .testimonials-slider .testimonials-slider-item {
+    margin: 60px auto 0; }
+    .testimonials-slider .testimonials-slider-item::before {
+      display: none; }
+
+  .testimonials-area.testimonials-bg.pt-100.pb-70 {
+    padding-bottom: 70px; }
+
+  /* App Responsive */
+  .main-navbar.app-nav {
+    background: #ffffff; }
+
+  .app-banner-area .bg-shape {
+    max-width: 200px; }
+  .app-banner-area .app-bennr-text {
+    padding-top: 80px; }
+    .app-banner-area .app-bennr-text .app-shapes .shape-30 {
+      max-width: 100px; }
+    .app-banner-area .app-bennr-text span {
+      margin-bottom: 10px; }
+    .app-banner-area .app-bennr-text h1 {
+      font-size: 46px;
+      margin-bottom: 20px; }
+    .app-banner-area .app-bennr-text .app-shapes .shape-14 {
+      right: 50px;
+      bottom: 50px; }
+
+  .easy-step-area .easy-step-img {
+    text-align: center;
+    margin-bottom: 30px; }
+    .easy-step-area .easy-step-img .shape-21 {
+      bottom: 0; }
+
+  .powerful-area .powerful-img {
+    margin: auto; }
+
+  .perfect-area .perfect-img {
+    text-align: center;
+    margin-bottom: 30px; }
+
+  .app-features-area {
+    padding: 51px 0; }
+    .app-features-area .app-features-img {
+      margin-bottom: 50px; }
+    .app-features-area .app-features {
+      max-width: 400px; }
+
+  .clients-slider-two-area .clients-slider-two .slider-two-item {
+    margin: 15px auto; } }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Personal Area Responsive */
+  .personal-banner-area .personal-bennr-text span {
+    font-size: 20px; }
+  .personal-banner-area .personal-bennr-text h1 {
+    font-size: 45px; }
+  .personal-banner-area .personal-bennr-text h3 {
+    font-size: 20px; }
+  .personal-banner-area .personal-bennr-text .personal-text-shape .shape-23 {
+    top: -80px; }
+
+  .fun-facts-area .single-fun-facts {
+    padding-left: 80px; }
+    .fun-facts-area .single-fun-facts i {
+      width: 60px;
+      height: 60px;
+      font-size: 30px;
+      line-height: 60px; }
+    .fun-facts-area .single-fun-facts h3 {
+      font-size: 30px; }
+
+  .choose-us-area .chooses-img-contant .section-title h2 {
+    font-size: 35px; }
+
+  /* Seo Marketing Responsive */
+  .seo-banner-area .seo-img-contant .seo-img .seo-img-2 {
+    right: -25px; }
+  .seo-banner-area .seo-banner-text h1 {
+    font-size: 45px;
+    margin-bottom: 25px; }
+
+  .about-us-area .about-us-text .about-card {
+    padding-left: 55px; }
+    .about-us-area .about-us-text .about-card h3 {
+      font-size: 35px; }
+    .about-us-area .about-us-text .about-card p {
+      font-size: 14px; }
+
+  .seo-banner-area .seo-shape2 .shape-14 {
+    bottom: 15px; }
+
+  .choose-card h3 {
+    font-size: 22px; }
+
+  .choose-us-area .chooses-img-contant .choose-us-img .choose-img {
+    left: -30px; }
+
+  .pricing-tab .tabs li.save-card {
+    right: 27%; }
+
+  /* Startup Agency Responsive  */
+  .startup-banner-area .startup-banner-text h1 {
+    font-size: 45px;
+    line-height: 1.4;
+    margin-bottom: 30px; }
+  .startup-banner-area .banner-video-contant .popup-video {
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) !important;
+    bottom: auto; }
+
+  .about-us-two .about-two-img .about-shape .shape-17 {
+    max-width: 420px; }
+
+  .aweseome-area .aweseome-img .awesome-1 {
+    max-width: 100%; }
+
+  .case-study-card .caption {
+    padding: 30px 22px; }
+    .case-study-card .caption .study-text h3 {
+      font-size: 20px;
+      margin-bottom: 5px; }
+    .case-study-card .caption .study-text p {
+      margin-bottom: 0; }
+
+  .testimonials-slider.owl-theme .owl-nav .owl-prev, .testimonials-slider.owl-theme .owl-nav .owl-next {
+    left: 40px; }
+  .testimonials-slider.owl-theme .owl-nav .owl-next {
+    left: auto;
+    right: 40px; }
+
+  /* App Responsive */
+  .app-banner-area {
+    padding-bottom: 100px;
+    padding-top: 200px; }
+    .app-banner-area .app-bennr-text h1 {
+      font-size: 50px;
+      margin-bottom: 25px; }
+    .app-banner-area .app-bennr-text .app-btn {
+      margin-top: 30px; }
+    .app-banner-area .app-bennr-text .mt-30 {
+      margin-top: 10px; }
+    .app-banner-area .bg-shape {
+      max-width: 250px; }
+
+  .app-features-area {
+    padding: 100px 0; }
+    .app-features-area .app-features {
+      max-width: 500px; }
+
+  .clients-slider-two-area .clients-slider-two .slider-two-item {
+    margin: 15px auto; }
+
+  .easy-step-area .easy-step-card .step-signle-card.step-p {
+    padding: 25px 20px; }
+
+  .subscribe-area .subscribe-contant .subscrive-text h3 {
+    font-size: 30px; }
+
+  .prising-card ul {
+    margin: 25px 0 0 25px; }
+    .prising-card ul li {
+      font-size: 16px; } }
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px; } }
+
+/*# sourceMappingURL=responsive.css.map */
