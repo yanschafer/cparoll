@@ -140,6 +140,7 @@ p:last-child {
 }
 .main-navbar.seo-nav {
 	border-bottom: 1px solid #eae7f4;
+	background: white;
 }
 .main-navbar.seo-nav.menu-shrink {
 	background-color: #ffffff;
