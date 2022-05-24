@@ -14,6 +14,14 @@ h1, h2, h3, h4 {
 .main-navbar .navbar-nav .nav-link.active {
 	color: #26d09b!important;
 }
+.NavSeparator {
+    border-left: 1px solid #cccccc;
+    width: 1px;
+    height: 31px;
+    margin-top: 5px;
+    padding-right: 10px;
+	margin-left: 10px;
+}
 a {
 	transition: all 0.5s;
 }
