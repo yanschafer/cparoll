@@ -24,9 +24,10 @@ button:focus {
 	outline: 0;
 }
 p {
-	margin-bottom: 10px;
-	line-height: 1.7;
-	color: #b9b9b9;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #666666;
+    font-size: 15px;
 }
 p:last-child {
 	margin-bottom: 0;
@@ -766,4 +767,7 @@ p:last-child {
 }
 b, strong {
     font-weight: 700;
+}
+.seo-services-area-1 .seo-services-1 .p {
+	font-size: 15px;
 }
